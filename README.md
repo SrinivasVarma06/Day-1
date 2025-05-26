@@ -9,9 +9,9 @@ I'll be working on Titanic Dataset and use jupyter notebook for coding.
 
 Step-1: Importing the dataset and required libraries.
 
-Step-2: Found out null values and handling them by using fillna() with median/mean.
+Step-2: Found out null values and handling them by using fillna() with median/mean. Dropping the columns which are not needed for this dataset like PassengerId, Name and Ticket. They do not affect survival.
 
-Step-3: Converting categorical values to numerical using encoding so that they can be used for classification tasks or for finding correlation.
+Step-3: Converting categorical values to numerical using encoding so that they can be used for classification tasks or for finding correlation. One-hot encoding for gender and label-encoding for Embarked column.
 
 Step-4: Observing the distribution and Normalizing/Standardizing the data so that distance based measures can be used appropriately. Else, there will be errors as larger values will affect the distance a lot. If data is following normal distribution, then standardization will be better as it is not sensitive to outliers.
 
