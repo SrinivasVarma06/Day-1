@@ -15,4 +15,4 @@ Step-3: Converting categorical values to numerical using encoding so that they c
 
 Step-4: Observing the distribution and Normalizing/Standardizing the data so that distance based measures can be used appropriately. Else, there will be errors as larger values will affect the distance a lot. If data is following normal distribution, then standardization will be better as it is not sensitive to outliers.
 
-Step-5: Visualizing outliers and removing them by finding interquartile range or log transformation (if the distribution is right skewed).
+Step-5: Visualizing outliers and removing them by finding interquartile range or log transformation (if the distribution is right skewed). Not removing outliers for age since they might be correct.
